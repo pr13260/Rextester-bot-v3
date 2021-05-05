@@ -17,16 +17,14 @@ Line breaks and indentation are supported.
 See list of supported programming languages:
 /common\\_languages, /all\\_languages.
 
-Version: \`${pkg.version}\`.
-Powered by rextester.com.
+Version: 2.5.8@beta2.0
 `;
 
 const helpHandler = ctx => {
     const inline_keyboard = [ [
         // XXX use pkg.bugs.url instead?
-        { text: "Official group", url: "telegram.me/Rextesters" },
-        { text: "Repository", url: pkg.repository.url },
-        { text: "Rate", url: `https://telegram.me/storebot?start=${ctx.me}` },
+        { text: "Official group", url: "https://t.me/course_group" },
+        { text: "Developers", url: "https://t.me/thestarkarmy13260" }
     ] ];
 
     const reply_markup = { inline_keyboard };
